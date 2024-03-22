@@ -8,8 +8,7 @@ from langchain.llms import OpenAI
 import os
 
 # Set environment variables
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "fa61d3bcde7c8965f6b10c1b4995276bb452a0a75bdd96327046d2829b60bf5e"
+os.environ["OPENAI_API_KEY"] = ""
 
 @st.cache(allow_output_mutation=True)
 def process_pdf(pdf_path):
